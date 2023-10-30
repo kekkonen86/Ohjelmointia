@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oma nettisivu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navi">
+            <div class="laatikko">
+                <div class="logo"><a href="https://public.bc.fi/s2101004/ohjelmointi/">Kasperin JavaScript-ohjelmia</a></div>
+                <nav>
+                    <ul>
+                        <li><a href="https://public.bc.fi/s2101004/ohjelmointi/dom/">DOM-Tehtävät</a></li>
+                        <li><a href="https://public.bc.fi/s2101004/ohjelmointi/teht/">Tehtävät</a></li>
+                        <li><a href="https://public.bc.fi/s2101004/ohjelmointi/robotto/">Robotto-ohjelma</a></li>
+                        <li><a href="https://public.bc.fi/s2101004/ohjelmointi/ventti/">Ventti-ohjelma</a></li>
+                        <li><a href="https://public.bc.fi/s2101004/ohjelmointi/luvut/">Luvut-ohjelma</a></li>
+                        <li><a href="#footer">Yhteystiedot</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+            
+      <div class="main">
+          <h1 class="otsikko1">TÄSSÄ ON VENTTI OHJELMA</h1>
+          <h3 class="otsikko2">Tässä tehtävässä piti: Tee JavaScript-ohjelma, joka toteuttaa ventti korttipelin</h3>
+          <br>
+        
+          <div class="peli">
+              <h2 class="jakaja-otsikko">Jakajan kortit</h2>
+              <div id="jp" class="jp">Jakajan Pisteet:</div>
+              <div id="jakajankortit">
+                <div id="kortti6">
+                    <p id="upper6"></p>
+                    <p id="midle6"></p>
+                    <p id="midle-red6"></p>
+                    <p id="lower6"></p>
+                </div>
+                <div id="kortti7">
+                    <p id="upper7"></p>
+                    <p id="midle7"></p>
+                    <p id="midle-red7"></p>
+                    <p id="lower7"></p>
+                </div>
+                <div id="kortti8">
+                    <p id="upper8"></p>
+                    <p id="midle8"></p>
+                    <p id="midle-red8"></p>
+                    <p id="lower8"></p>
+                </div>
+                <div id="kortti9">
+                    <p id="upper9"></p>
+                    <p id="midle9"></p>
+                    <p id="midle-red9"></p>
+                    <p id="lower9"></p>
+                </div>
+                <div id="kortti10">
+                    <p id="upper10"></p>
+                    <p id="midle10"></p>
+                    <p id="midle-red10"></p>
+                    <p id="lower10"></p>
+                </div>
+                      </div>
+              
+                      <br>
+                      <br>
+              
+                      <h2 class="pelaaja-otsikko">Pelaajan kortit</h2>
+                      <div id="pp" class="pp">Pelaajan Pisteet:</div>
+
+              
+                      <div id="pelaajankortit">
+                <div id="kortti1">
+                    <p id="upper"></p>
+                    <p id="midle"></p>
+                    <p id="midle-red"></p>
+                    <p id="lower"></p>
+                </div>
+                <div id="kortti2">
+                    <p id="upper2"></p>
+                    <p id="midle2"></p>
+                    <p id="midle-red2"></p>
+                    <p id="lower2"></p>
+                </div>
+                <div id="kortti3">
+                    <p id="upper3"></p>
+                    <p id="midle3"></p>
+                    <p id="midle-red3"></p>
+                    <p id="lower3"></p>
+                </div>
+                <div id="kortti4">
+                    <p id="upper4"></p>
+                    <p id="midle4"></p>
+                    <p id="midle-red4"></p>
+                    <p id="lower4"></p>
+                </div>
+                <div id="kortti5">
+                    <p id="upper5"></p>
+                    <p id="midle5"></p>
+                    <p id="midle-red5"></p>
+                    <p id="lower5"></p>
+                </div>
+                      </div>
+              
+                      <button type="button" class="button-68" role="button" onclick="nostaKortti()">Nosta!</button>
+                      <button type="button" class="button-68" role="button" onclick="jää()">Jää!</button>
+                      <p id="tulos"></p>
+                      <br>
+                      <button type="button" class="button-71" role="button" onclick="history.go(0);">Uusi Peli!</button>
+                      
+
+          </div>
+
+          
+
+        <script src="skriptit.js"></script>
+      </body>
