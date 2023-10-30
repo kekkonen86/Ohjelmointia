@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oma nettisivu</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navi">
+            <div class="laatikko">
+                <div class="logo"><a href="https://public.bc.fi/s2101004/ohjelmointi/">Kasperin JavaScript-ohjelmia</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="https://public.bc.fi/s2101004/ohjelmointi/dom/">DOM-Tehtävät</a></li>
+                        <li><a href="../teht/">Tehtävät</a></li>
+                        <li><a href="../robotto/">Robotto-ohjelma</a></li>
+                        <li><a href="../ventti/">Ventti-ohjelma</a></li>
+                        <li><a href="../luvut/">Luvut-ohjelma</a></li>
+                        <li><a href="#footer">Yhteystiedot</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>TÄNNE TULEE ROBOTTO-TEHTÄVÄ</h2>
+            <h3 class="ostikko2">Tässä tehtävässä piti: Tee JavaScript-ohjelma, joka
+
+                näyttää sivulla Robotto-robotin paikallaan seisten ja sen yläpuolelle kentän, johon käyttäjä kirjoittaa
+                komennon. Lisää myös painike Suorita ja painike Lopeta.
+               </h3>
+               <p>Laita Robotto-Robotti vilkuttamaan komennolla: robotto.wave();<br>
+                Laita Robotto-Robotti hyppäämään komennolla: robotto.jump();<br>
+                Laita Robotto-Robotti kävelemään komennolla: robotto.walk();<br></p>
+                <a class="linkki"href="http://www.freepik.com">KUVAT: Designed by pch.vector / Freepik</a>
+               <form name="lomake" onsubmit="return robottoKomennot(event)" method="post">
+                <label for="komennot">Kirjoita komennot alla olevaan input laatikkoon.</label><br>
+               <input type="text" name="komennot" id="komennot">
+               <input type="submit" value="Suorita"></input>
+               <input type="button" value="Lopeta" onClick="location.href=location.href">
+               <div id="paskaperse">
+                <img class="robotto" src="./images/robotto_normal.png" width="10%">
+               </div>
+                </form>
+                
+                <script src="skriptit.js"></script>
+
+               <!-- <img class="robotto" src="./images/robotto_normal.png" alt="robotto_normal" width="10%">
+               <img class="robotto" src="./images/robotto_wawe.png" alt="robotto_wawe "width="10%">
+               <img class="robotto" src="./images/robotto_jump.png" alt="robotto_jump" width="10%">
+               <img class="robotto" src="./images/robotto_walk_1.png" alt="robotto_walk_1" width="10%">
+               <img class="robotto" src="./images/robotto_walk_2.png" alt="robotto_walk_2" width="10%"> -->
+
+
+        </div>
+</body>
+
+</html>

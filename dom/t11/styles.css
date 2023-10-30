@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+.main {
+    margin-top: 10rem;
+    background-color: white;
+    color: black;
+}
+
+body {
+    background-color: rgb(35, 109, 30);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+
+}
+
+
+/* Navin säännöt */
+
+.laatikko {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+}
+
+header nav ul li a:hover {
+    background-color: #4B0082;
+    padding: 0.2rem;
+}
+  
+.navi {
+    background-color: #1d1c1c;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+  
+header nav ul li a,
+.logo a {
+    text-decoration: none;
+    display: block;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #4B0082;
+}
+
+header .laatikko {
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kuva-otsikko {
+    text-align: inherit;
+    font-size: 3rem;
+    
+    
+}
+
+/* kuvan säännöt */
+
+.tausta-kuva {
+    position: relative;
+    margin-top: 45px;
+}
+
+.kuva-otsikko {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.kuva-kappale {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 1.2rem;
+}
+
+.kuva {
+    padding-top: 1.5rem;
+    filter: opacity(100%);
+    filter: brightness(20%);
+}
+
+.tiedot {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.tiedot2 {
+    text-align: center;
+}
+
+.dompuu {
+    color: black;
+    background-color:white;
+}
+
+#paikka {
+    color: black;
+}
+
+#paikka2 {
+    color: black;
+}
+
+td{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    }
+    .valittu{
+    background-color: darkred;
+    }
+
+
+   
+    form {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    #nappi {
+        margin-left: 40%;
+    }
+
+#pkortti1, #pkortti2, #pkortti3, #pkortti4, #pkortti5, #jkortti1, #jkortti2, #jkortti3, #jkortti4, #jkortti5 {
+    background-color: white;
+    width: 110px;
+    height: 210px;
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    margin: 20px;
+    padding: 2rem 2rem 2rem 2rem;
+    user-select: none;
+    display: inline-block;
+    vertical-align:top;
+}
+
+#teksti {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  justify-content: center;
+  display: flex;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

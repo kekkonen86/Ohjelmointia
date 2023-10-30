@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oma nettisivu</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+    <body>
+        <header>
+            <div class="navi">
+                <div class="laatikko">
+                    <div class="logo"><a href="https://public.bc.fi/s2101004/ohjelmointi/">Kasperin JavaScript-ohjelmia</a></div>
+                    <nav>
+                        <ul>
+                            <li><a href="https://public.bc.fi/s2101004/ohjelmointi/teht/">Tehtävät</a></li>
+                            <li><a href="https://public.bc.fi/s2101004/ohjelmointi/robotto/">Robotto-ohjelma</a></li>
+                            <li><a href="https://public.bc.fi/s2101004/ohjelmointi/ventti/">Ventti-ohjelma</a></li>
+                            <li><a href="https://public.bc.fi/s2101004/ohjelmointi/luvut/">Luvut-ohjelma</a></li>
+                            <li><a href="#footer">Yhteystiedot</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+    <div class="main">
+        <h1 class="otsikko1">TÄSSÄ ON TEHTÄVÄN NUMERO 1 SIVU</h1>
+        <h3 class="otsikko2">Tässä tehtävässä piti: Tehdä kuvan mukainen sivu. Ota koodit ja kuvat sivulta: www.w3schools.com/js/js_intro.asp Sivulle siis esimerkit näistä:
+
+            JavaScript voi muuttaa HTML sisältöä
+            Muuttaa HTML attribuutin arvoa.
+            JavaScript voi muuttaa HTML elementin tyylin.
+            JavaScript voi piilottaa HTML elementin.
+            JavaScript voi tuoda näkyviin HTML elementin.
+            
+     </h3>
+        <p id="demo">JavaScript voi muuttaa HTML sisältöä.</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Moi JavaScript!"'>
+            Klikkaa minua
+        </button>
+        <hr />
+        
+        <p class="teksti">Muuttaa HTML attribuutin arvoa.</p>
+        
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Valo päälle</button>
+        
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+        
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Valo pois</button>
+        
+        <hr />
+        
+        <p id="demo2">JavaScript voi muuttaa HTML elementin tyylin.
+        </p>
+        
+        <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Klikkaa minua</button>
+        
+        <hr />
+        
+        <p id="demo3">JavaScript voi piilottaa HTML elementin.
+        </p>
+        
+        <button type="button" onclick="document.getElementById('demo3').style.display='none'">Klikkaa minua</button>
+        
+        <hr />
+        
+        <p class="teksti">JavaScript voi tuoda näkyviin HTML elementin.</p>
+        
+        <p id="demo4" style="display:none">Terve JavaScript!</p>
+        
+        <button type="button" onclick="document.getElementById('demo4').style.display='block'">Klikkaa minua</button>
+    </div>
+
+</body>
+
+</html>
